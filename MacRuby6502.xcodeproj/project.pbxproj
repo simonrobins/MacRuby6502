@@ -49,8 +49,6 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		BCD0697E12E8C6F7006CD01C /* AddressingMode.rb in Resources */ = {isa = PBXBuildFile; fileRef = BCD0697D12E8C6F7006CD01C /* AddressingMode.rb */; };
-		BCD0699912E8CC94006CD01C /* M6502.rb in Resources */ = {isa = PBXBuildFile; fileRef = BCD0699812E8CC94006CD01C /* M6502.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,8 +78,6 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MacRuby6502.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRuby6502.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD0697912E8C6B0006CD01C /* m6502_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = m6502_test.rb; sourceTree = "<group>"; };
-		BCD0697D12E8C6F7006CD01C /* AddressingMode.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AddressingMode.rb; sourceTree = "<group>"; };
-		BCD0699812E8CC94006CD01C /* M6502.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = M6502.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +96,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BCD0697D12E8C6F7006CD01C /* AddressingMode.rb */,
-				BCD0699812E8CC94006CD01C /* M6502.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -241,8 +235,6 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
-				BCD0697E12E8C6F7006CD01C /* AddressingMode.rb in Resources */,
-				BCD0699912E8CC94006CD01C /* M6502.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
